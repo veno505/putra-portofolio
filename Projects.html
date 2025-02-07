@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+     body {
+            font-family: 'Arial', sans-serif;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Backround\ 4.jpg);
+            background-size: 135%; /* Zoom out background */
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            padding: 1px 0;
+        }
+    .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .contact-icons img {
+            width: 50px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+        .contact-icons img:hover {
+            transform: scale(1.1);
+        }
+  </style>
+</head>
+
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="document.getElementById('navbarNav').classList.toggle('show')">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </nav>
+</section>
+<section id="projects" class="container mt-5">
+  <style>
+      #projects h2 {
+          color: #ffffff;
+      }
+  </style>
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Project 1.jpg" class="card-img-top" alt="Project Image">
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">Diproject ini saya membuat game dengan menggunakan Unity dan menggunakan bahasa pemrograman C#. saya memahami bahasa tersebut dan mencoba mengcoding menggunakan c# yang ditugaskan untuk menjalankan asset kekanan dan kekiri </p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Project 2.jpg" class="card-img-top" alt="Project Image">
+        <div class="card-body">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">Project kedua saya membuat game kelompok yang berisi 5 orang dengan genre adventure. Yang menceritakan tentang seorang jamal yang harus melalui rintangan yang telah dibuat, game 2d dengan nama jamal studio.</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Project 4.jpg" class="card-img-top" alt="Project Image">
+        <div class="card-body">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">Diproject ketiga ini saya dan team saya membuat game yang mirip dengan plant vs zombie, degan menggunakan bahasa pemrograman C# dan menggunakan Unity.</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="asset 2.jpg" class="card-img-top" alt="Project Image">
+        <div class="card-body">
+          <h5 class="card-title">Project 4</h5>
+          <p class="card-text">Project keempat saya menggambar asset karakter dengan menggunakan Ibis Paint X dengan gafik 2d. </p>
+         
+        
+
+        </div>
+      </div>
+    </div>
+  </div>
